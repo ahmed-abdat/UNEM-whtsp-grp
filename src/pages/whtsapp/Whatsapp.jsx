@@ -29,6 +29,8 @@ export default function Whatsapp() {
   };
 
   const handleNumBacChange = (e) => {
+
+    console.log(e.target.value);
     const inputValue = e.target.value;
     const numBacValue = inputValue.slice(0, 5); // Restrict to 5 digits
     setNumBac(numBacValue);
