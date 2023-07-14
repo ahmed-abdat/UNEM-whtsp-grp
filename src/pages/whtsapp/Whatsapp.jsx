@@ -61,7 +61,7 @@ export default function Whatsapp() {
           </div>
             <div className="btn">
               <button
-                disabled={numBac.length !== 5}
+                disabled={numBac.length !== 4}
                 onClick={handelValideStudent}
               >
                 إنضمام
