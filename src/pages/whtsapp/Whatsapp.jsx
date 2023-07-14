@@ -27,7 +27,7 @@ export default function Whatsapp() {
         T: "https://chat.whatsapp.com/IC9MwzhTKiU8psKhMz1tpP",
       };
 
-      window.open(whtspUrl[isValid.Série])
+      window.open(whtspUrl[isValid.SERIE])
       return;
     }
     numBacRef.current.blur()
