@@ -30,8 +30,6 @@ export default function Whatsapp() {
       window.open(whtspUrl[isValid.SERIE])
       return;
     }
-    numBacRef.current.blur()
-    toast.info("للأسف لايمكنكم الدخول, نتمنى لكم حظا أوفر في القادم");
   };
 
   const handleNumBacChange = (e) => {
