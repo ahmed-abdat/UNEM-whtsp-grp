@@ -1,37 +1,19 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-
-
-
-
-// const Whatsapp = lazy(() => import("./pages/whtsapp/Whatsapp"));
-
 import Whatsapp from "./pages/whtsapp/Whatsapp";
+import ReactGA from "react-ga";
 
-
-
-import ReactGA from 'react-ga';
-
-const trackingId = "G-CSX36HKJXZ"
+const trackingId = "G-CSX36HKJXZ";
 ReactGA.initialize(trackingId);
 ReactGA.pageview(window.location.pathname);
-
-
-
-
-
-
-
-
 
 function App() {
   return (
     <Router>
-        <Routes>
-          <Route path="/" element={<Whatsapp />} />
-          
-          <Route path="/whatsapp" element={<Whatsapp />} />
-        </Routes>
+      <Routes>
+        <Route path="/" element={<Whatsapp />} />
+
+        <Route path="/whatsapp" element={<Whatsapp />} />
+      </Routes>
     </Router>
   );
 }
