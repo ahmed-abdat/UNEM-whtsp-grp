@@ -71,6 +71,17 @@ input[type="number"]::-webkit-inner-spin-button {
   cursor: pointer;
 }
 
+.footer-name p {
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.86rem;
+  font-weight: 400;
+  color: #616161;
+  cursor: pointer;
+}
+
 
 @media screen and (min-width : 768px) {
   .whatsapp .form {
