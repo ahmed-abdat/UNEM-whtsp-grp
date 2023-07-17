@@ -70,3 +70,11 @@ input[type="number"]::-webkit-inner-spin-button {
   border-radius: 12px;
   cursor: pointer;
 }
+
+
+@media screen and (min-width : 768px) {
+  .whatsapp .form {
+    max-width: 60%;
+    margin-inline: auto;
+  }
+}
