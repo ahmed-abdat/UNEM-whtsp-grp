@@ -30,6 +30,7 @@ export default function Whatsapp() {
       window.open(whtspUrl[isValid.SERIE])
       return;
     }
+    toast.error(" رقم الباكلوريا غير صحيح أو لستم من ضمن الناجحين !");
   };
 
   const handleNumBacChange = (e) => {
