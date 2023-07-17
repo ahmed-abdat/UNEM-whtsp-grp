@@ -10,6 +10,11 @@ import Whatsapp from "./pages/whtsapp/Whatsapp";
 
 
 
+import ReactGA from 'react-ga';
+
+const trackingId = "G-CSX36HKJXZ"
+ReactGA.initialize(trackingId);
+ReactGA.pageview(window.location.pathname);
 
 
 
