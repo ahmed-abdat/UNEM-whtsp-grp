@@ -73,11 +73,10 @@ export default function Whatsapp() {
             </div>     
         </form>
       </section>
-        {/* mad by Ahmed Abdat */}
-        <div className="footer-name" onClick={handelAhmedWhtspp}>
+        // {/* mad by Ahmed Abdat */}
+        {/* <div className="footer-name" onClick={handelAhmedWhtspp}>
           <p>Made by @Ahmed Abdat</p>
-        </div>
-      <Footer />
+        </div> */}
       <ToastContainer
         position="top-center"
         autoClose={3000}
