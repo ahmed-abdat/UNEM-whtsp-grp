@@ -2,7 +2,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import data from "../../data/ba.json";
+import data from "../../data/BAC2023VALID.json";
 import Sesion from "../../data/SessionBac.json";
 import { useState , useRef } from "react";
 import "./Whatsapp.css";
